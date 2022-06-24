@@ -91,7 +91,7 @@ export default function CardDemande() {
                 {demande.prenom_prop}
                 </td>
                 <td className="font-semibold border-t-0 px-6 align-middle border-l-0 border-r-0 text-base whitespace-nowrap p-4">
-                {ChoseType(demande.type_id)}
+                {demande.raison}
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-base whitespace-nowrap ">
                     <div

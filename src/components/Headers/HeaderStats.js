@@ -28,7 +28,7 @@ export default function HeaderStats() {
               </div>
               <div className="cursor-pointer w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardStats
-                  statSubtitle="RENOUVELLEMENT DE CONTRAT DE TRAVAIL"
+                  statSubtitle="RENOUVELLEMENT DE CONTRAT"
                   statTitle="100"
                   statArrow="up"
                   statPercent="29.32"

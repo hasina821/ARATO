@@ -52,5 +52,8 @@
   },
   "optionalDependencies": {
     "typescript": "4.2.3"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }

@@ -28,8 +28,8 @@ const CardType = () =>{
                               
                               </CardContent>
                               <CardActions>
-                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>6</span>Procedure</Button>
-                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>8</span>Pieces à fournir</Button>
+                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>6</span> Procedure</Button>
+                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>8</span> Pieces à fournir</Button>
                               </CardActions>
                          </Card>
                     </Grid>
@@ -49,8 +49,8 @@ const CardType = () =>{
                               
                               </CardContent>
                               <CardActions>
-                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>5</span>Procedure</Button>
-                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>7</span>Pieces à fournir</Button>
+                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>5</span> Procedure</Button>
+                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>7</span> Pieces à fournir</Button>
                               </CardActions>
                          </Card>
                     </Grid>
@@ -70,8 +70,8 @@ const CardType = () =>{
                               
                               </CardContent>
                               <CardActions>
-                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>8</span>Procedure</Button>
-                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>10</span>Pieces à fournir</Button>
+                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>8</span> Procedure</Button>
+                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>10</span> Pieces à fournir</Button>
                               </CardActions>
                          </Card>
                     </Grid>
@@ -91,8 +91,8 @@ const CardType = () =>{
                               
                               </CardContent>
                               <CardActions>
-                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>4</span>Procedure</Button>
-                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>12</span>Pieces à fournir</Button>
+                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>4</span> Procedure</Button>
+                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>12</span> Pieces à fournir</Button>
                               </CardActions>
                          </Card>
                     </Grid>
@@ -114,8 +114,8 @@ const CardType = () =>{
                               
                               </CardContent>
                               <CardActions>
-                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>6</span>Procedure</Button>
-                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>8</span>Pieces à fournir</Button>
+                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>6</span> Procedure</Button>
+                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>8</span> Pieces à fournir</Button>
                               </CardActions>
                          </Card>
                     </Grid>
@@ -135,8 +135,8 @@ const CardType = () =>{
                               
                               </CardContent>
                               <CardActions>
-                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>5</span>Procedure</Button>
-                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>7</span>Pieces à fournir</Button>
+                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>5</span> Procedure</Button>
+                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>7</span> Pieces à fournir</Button>
                               </CardActions>
                          </Card>
                     </Grid>
@@ -156,8 +156,8 @@ const CardType = () =>{
                               
                               </CardContent>
                               <CardActions>
-                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>8</span>Procedure</Button>
-                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>10</span>Pieces à fournir</Button>
+                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>8</span> Procedure</Button>
+                              <Button size="small"><span style={{color:'black',fontWeight:'bold'}}>10</span> Pieces à fournir</Button>
                               </CardActions>
                          </Card>
                     </Grid>

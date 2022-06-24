@@ -2,6 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
@@ -14,7 +15,7 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-blueGray-600">
-                MNDPT
+              Ministère du Travail de l'Emploi de la Fonction Publique des Lois Sociales
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                 {" "}
@@ -28,19 +29,21 @@ export default function Index() {
                 . Visons loin  à travers la transformation Digitale au sein de divers services publiques pour rendre notre efficacite plus sûre.
               </p>
               <div className="mt-12">
+              <Link to="/auth/login">
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus?ref=nr-index"
                   target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-red-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
-                  Get started
+                  Commencer
                 </a>
+                </Link>
                 <a
                   href="https://github.com/creativetimofficial/notus-react?ref=nr-index"
                   className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-green-600 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   target="_blank"
                 >
-                  Github Star
+                  SERVICES
                 </a>
               </div>
             </div>
@@ -99,7 +102,7 @@ export default function Index() {
                     Soyez prêt pour la digitalisation
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Cette applicatifs est complet pour repondre à votre besoin et en plus c'est une application qui va vous facilite la vie à travers ces fonctionnalités hors du commun
+                    Cette applicatifs est complet pour repondre à votre besoin et en plus c'est une application qui va vous facilite la vie à travers ses fonctionnalités hors du commun
                   </p>
                 </blockquote>
               </div>
@@ -143,7 +146,7 @@ export default function Index() {
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">Multilangue</h6>
                       <p className="mb-4 text-blueGray-500">
-                        Cette application dispose d'une SI multilangue pour le rendre confortable.
+                        Cette application dispose d'une SI multi-langue pour le rendre confortable.
                       </p>
                     </div>
                   </div>
@@ -174,6 +177,7 @@ export default function Index() {
                     href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
                     target="_blank"
                   >
+                  <Link to="/typedemande">
                     <div className=" bg-green-600 shadow-lg rounded-lg text-center p-8">
                       <a
                         alt="..."
@@ -183,11 +187,13 @@ export default function Index() {
                         DEMANDE D'EQUIVALENCE
                       </p>
                     </div>
+                  </Link>
                   </a>
                   <a
                     href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
                     target="_blank"
                   >
+                  <Link to="/typedemande">
                     <div className="hover:mt-4 duration-150 bg-red-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <a
                         alt="..."
@@ -197,6 +203,7 @@ export default function Index() {
                         RENOUVELLEMENT DE CONTRAT DE TRAVAIL
                       </p>
                     </div>
+                  </Link>
                   </a>
                 </div>
                 <div className=" my-4 w-full lg:w-6/12 px-4 lg:mt-16">
@@ -204,6 +211,7 @@ export default function Index() {
                     href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
                     target="_blank"
                   >
+                  <Link to="/typedemande">
                     <div className=" bg-white shadow-lg rounded-lg text-center p-8">
                       <a
                         alt="..."
@@ -212,9 +220,10 @@ export default function Index() {
                         RECLASSEMENT JUDICIAIRE
                       </p>
                     </div>
+                  </Link>
                   </a>
+                  <Link to="/typedemande">
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
                     target="_blank"
                   >
                     <div className="hover:mt-4 duration-150 bg-green-600 shadow-lg rounded-lg text-center p-8 mt-8">
@@ -227,6 +236,7 @@ export default function Index() {
                       </p>
                     </div>
                   </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -239,11 +249,7 @@ export default function Index() {
                 Services offerts
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                POCEDURE DE NOMINATION,RECLASSEMENT JUDICIAIRE,RENOUVELLEMENT DE CONTRAT DE TRAVAIL et le demande d'equivalence font partie de notre priorité.
-              </p>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                We created a set of Components that are dynamic and come to help
-                you.
+                POCEDURE DE NOMINATION,RECLASSEMENT JUDICIAIRE,RENOUVELLEMENT DE CONTRAT DE TRAVAIL et le demande d'equivalence font partie de notre priorité.On va prendre à main le suivi de votre demande quoiqu'il est.
               </p>
             </div>
           </div>
