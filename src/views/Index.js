@@ -130,7 +130,7 @@ export default function Index() {
                         <i className="fas fa-money-check"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Back-office pour l'Admin
+                        Back-office
                       </h6>
                       <p className="mb-4 text-blueGray-500">
                         Une interface qui va aider l'admin à gerer les differentes operations sur les demandes au sein d'un departement.
